@@ -1,0 +1,16 @@
+<template name="index">
+  <div>
+    <table>
+      <tr>
+        <td>id</td>
+        <td>name</td>
+      </tr>
+      {{#each dumyData}}
+      <tr>
+        <td> {{this._id}}</td>
+        <td> {{this.name}}</td>
+      </tr>
+      {{/each}}
+    </table>
+  </div>
+</template>

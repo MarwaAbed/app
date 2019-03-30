@@ -1,0 +1,524 @@
+{
+    "public": {
+        "app": {
+            "title": "cyelon-systems",
+            "description": ""
+        },
+        "requests":{
+
+        },
+        "bodyParts": {
+            "location1": "Occiput",
+            "location2": "Right upper arm/scapula",
+            "location3": "Left upper arm/scapula",
+            "location4": "Right lower arm",
+            "location5": "Lower Back",
+            "location6": "Left lower arm",
+            "location7": "Sacrum",
+            "location8": "Right upper leg",
+            "location9": "Left upper leg",
+            "location10": "Right lower leg",
+            "location11": "Left lower leg"
+        },
+        "bodyPartColors": [],
+        "sensorColors": [],
+        "department": {
+            "department1": {
+                "value": "department1",
+                "label": "ICU"
+            },
+            "department2": {
+                "value": "department3",
+                "label": "Mental Health"
+            },
+            "department3": {
+                "value": "department3",
+                "label": "Emergency"
+            },
+            "department4": {
+                "value": "department4",
+                "label": "Paediatrics"
+            },
+            "department5": {
+                "value": "department5",
+                "label": "Obstetrics"
+            },
+            "department6": {
+                "value": "department6",
+                "label": "Cardiology"
+            },
+            "department7": {
+                "value": "department7",
+                "label": "Inpatient"
+            },
+            "department8": {
+                "value": "department8",
+                "label": "Surgery"
+            }
+        },
+        "bigMatt": "/resources/LargeSensorMatDB.json",
+        "staff": [
+            {
+                "_id": "BSPXucYMbayhoQ2nN",
+                "name": "Nina Nurse",
+                "username": "nnurse",
+                "role": "nurse",
+                "password": "password",
+                "department": "department1"
+            },
+            {
+                "_id": "v9odMxHmPtf2BrC3b",
+                "name": "Marc Manager",
+                "username": "mmanager",
+                "role": "manager",
+                "password": "password"
+            },
+            {
+                "_id": "9nMoB5B2vJbtpPzCT",
+                "name": "admin",
+                "username": "admin",
+                "role": "admin",
+                "department": "",
+                "password": "password"
+            }
+        ],
+        "patients": [
+            {
+              "id":"101",
+                "gender": "female",
+                "name": "Rita Risk",
+                "address": "Blue Street 123",
+                "dob": "1963-02-23",
+                "phone": "+1234567890",
+                "room": 1,
+                "bed":2,
+                "preventiveCare": 0
+
+
+            },
+            {
+              "id":"102",
+                "gender": "male",
+                "name": "Alan Allright",
+                "address": "Somewhere Street 123",
+                "dob": "1986-02-11",
+                "phone": "+123456789",
+                "caregivers": {
+                    "managing": "v9odMxHmPtf2BrC3b",
+                    "primary": "BSPXucYMbayhoQ2nN",
+                    "secondary": "BSPXucYMbayhoQ2nN"
+                },
+                "riskFactors": {
+                    "perception": 2,
+                    "moisture": 2,
+                    "activity": 2,
+                    "mobility": 1,
+                    "nutrition": 2,
+                    "frictionShear": 1
+                },
+                "pressure": {
+                    "location1": 7,
+                    "location2": 12,
+                    "location3": 22,
+                    "location4": 10,
+                    "location5": 23,
+                    "location6": 7,
+                    "location7": 11,
+                    "location8": 17,
+                    "location9": 17,
+                    "location10": 17,
+                    "location11": 9
+                },
+                "pressureScore": 11,
+                "riskScore": 10,
+                "room": 1,
+                "bed":3,
+                "preventiveCare": 0
+            },
+            {
+              "id":"103",
+                "gender": "male",
+                "name": "Marcus Moderate",
+                "address": "sfsfd",
+                "dob": "2017-11-12",
+                "phone": "+123456789",
+                "riskFactors": {
+                    "perception": 2,
+                    "moisture": 2,
+                    "activity": 3,
+                    "mobility": 3,
+                    "nutrition": 2,
+                    "frictionShear": 2
+                },
+                "riskScore": 14,
+                "preventiveCare": 2,
+                "pressure": {
+                    "location1": 7,
+                    "location2": 12,
+                    "location3": 15,
+                    "location4": 10,
+                    "location5": 21,
+                    "location6": 20,
+                    "location7": 11,
+                    "location8": 17,
+                    "location9": 7,
+                    "location10": 7,
+                    "location11": 19
+                },
+                "room": 2,
+                "bed":1,
+                "pressureScore": 7
+            },
+            {
+              "id":"104",
+                "gender": "female",
+                "name": "Miley Mild",
+                "address": "342reerf",
+                "dob": "2017-11-17T00:00:00Z",
+                "phone": "3242342342",
+                "room": 2,
+                "bed":2,
+                "preventiveCare": 0
+            },
+            {
+              "id":"105",
+                "gender": "male",
+                "name": "Jonathon Mayweather",
+                "address": "52 thorndale",
+                "dob": "1995-11-12",
+                "phone": "+123556789",
+                "riskFactors": {
+                    "perception": 1,
+                    "moisture": 2,
+                    "activity": 1,
+                    "mobility": 1,
+                    "nutrition": 2,
+                    "frictionShear": 1
+                },
+                "riskScore": 8,
+                "room": 2,
+                "bed":3,
+                "preventiveCare": 0
+            },
+            {
+              "id":"106",
+                "gender": "female",
+                "name": "Lauren Rose",
+                "address": "72 Heisman",
+                "dob": "1990-05-06",
+                "phone": "+0897867568",
+                "riskFactors": {
+                    "perception": 1,
+                    "moisture": 1,
+                    "activity": 3,
+                    "mobility": 1,
+                    "nutrition": 2,
+                    "frictionShear": 1
+                },
+                "riskScore": 16,
+                "room": 3,
+                "bed":1,
+                "preventiveCare": 0
+            },
+            {
+              "id":"107",
+                "gender": "female",
+                "name": "Kyrie Irving",
+                "address": "85 digitory",
+                "dob": "1989-02-03",
+                "phone": "+0987898765",
+                "riskFactors": {
+                    "perception": 1,
+                    "moisture": 1,
+                    "activity": 1,
+                    "mobility": 1,
+                    "nutrition": 2,
+                    "frictionShear": 1
+                },
+                "riskScore": 7,
+                "room": 3,
+                "bed":2,
+                "preventiveCare": 0
+            },
+            {
+              "id":"108",
+                "gender": "male",
+                "name": "Ryan Singh",
+                "address": "91 fishing",
+                "dob": "1979-02-03",
+                "phone": "+1287898765",
+                "riskFactors": {
+                    "perception": 2,
+                    "moisture": 2,
+                    "activity": 1,
+                    "mobility": 1,
+                    "nutrition": 1,
+                    "frictionShear": 1
+                },
+                "riskScore": 8,
+                "room": 3,
+                "bed":3,
+                "preventiveCare": 0
+            },
+            {
+              "id":"109",
+                "gender": "male",
+                "name": "Allan Jagpreet",
+                "address": "2 kingjames",
+                "dob": "1975-05-03",
+                "phone": "+9876898765",
+                "riskFactors": {
+                    "perception": 4,
+                    "moisture": 4,
+                    "activity": 4,
+                    "mobility": 4,
+                    "nutrition": 2,
+                    "frictionShear": 1
+                },
+                "riskScore": 19,
+                "room": 4,
+                "bed":2,
+                "preventiveCare": 0
+            },
+            {
+              "id":"110",
+                "gender": "female",
+                "name": "Jenna Stark",
+                "address": "34 infotarium",
+                "dob": "1956-08-03",
+                "phone": "+4587898765",
+                "riskFactors": {
+                    "perception": 4,
+                    "moisture": 3,
+                    "activity": 3,
+                    "mobility": 3,
+                    "nutrition": 2,
+                    "frictionShear": 1
+                },
+                "riskScore": 6,
+                "room": 4,
+                "bed":3,
+                "preventiveCare": 0,
+                "pressureScore": 8
+            },
+            {
+              "id":"111",
+                "gender": "male",
+                "name": "Bob Rempel",
+                "address": "11 Supergoku",
+                "dob": "1956-09-03",
+                "phone": "+6666898765",
+                "riskFactors": {
+                    "perception": 3,
+                    "moisture": 2,
+                    "activity": 2,
+                    "mobility": 2,
+                    "nutrition": 1,
+                    "frictionShear": 1
+                },
+                "riskScore": 11,
+                "riskScoreHistory":[
+                    {
+                        "date":"2017-11-15",
+                        "score":"8"
+                    }
+                 ],
+                 "room": 5,
+                 "bed":1,
+                "preventiveCare": 0
+            },
+            {
+              "id":"112",
+                "gender": "female",
+                "name": "Natasha Sellick",
+                "address": "41 Billter",
+                "dob": "1978-09-18",
+                "phone": "+098765765",
+                "riskFactors": {
+                    "perception": 1,
+                    "moisture": 1,
+                    "activity": 1,
+                    "mobility": 1,
+                    "nutrition": 2,
+                    "frictionShear": 1
+                },
+                "riskScore": 7,
+
+                "riskScoreHistory":[
+                    {
+                        "date":"2017-11-15",
+                        "score":"12"
+                    }
+                ],
+                "room": 5,
+                "bed":2,
+                "preventiveCare": 0
+            },
+            {
+              "id":"113",
+                "gender": "male",
+                "name": "Al Horford",
+                "address": "100 digitory",
+                "dob": "1988-02-18",
+                "phone": "+0987768765",
+                "riskFactors": {
+                    "perception": 2,
+                    "moisture": 2,
+                    "activity": 1,
+                    "mobility": 1,
+                    "nutrition": 2,
+                    "frictionShear": 3
+                },
+                "riskScore": 11,
+                "room": 5,
+                "bed":3,
+                "preventiveCare": 0
+            },
+            {
+              "id":"114",
+                "gender": "male",
+                "name": "Nikita Soshnikov",
+                "address": "21 okokokok",
+                "dob": "1982-11-03",
+                "phone": "+0990008765",
+                "riskFactors": {
+                    "perception": 1,
+                    "moisture": 1,
+                    "activity": 1,
+                    "mobility": 1,
+                    "nutrition": 4,
+                    "frictionShear": 3
+                },
+                "riskScore": 11,
+                "room": 5,
+                "bed":4,
+                "preventiveCare": 0
+            },
+            {
+              "id":"115",
+                "gender": "female",
+                "name": "Victoria Long",
+                "address": "31 actom",
+                "dob": "1989-05-12",
+                "phone": "+0000898765",
+                "riskFactors": {
+                    "perception": 4,
+                    "moisture": 4,
+                    "activity": 1,
+                    "mobility": 1,
+                    "nutrition": 1,
+                    "frictionShear": 1
+                },
+                "riskScore": 12,
+                "room": 6,
+                "bed":1,
+                "preventiveCare": 0
+            },
+            {
+              "id":"116",
+                "gender": "female",
+                "name": "Oblong Putev",
+                "address": "78 heist",
+                "dob": "1962-01-03",
+                "phone": "+1111898765",
+                "riskFactors": {
+                    "perception": 2,
+                    "moisture": 3,
+                    "activity": 3,
+                    "mobility": 3,
+                    "nutrition": 3,
+                    "frictionShear": 3
+                },
+                "riskScore": 17,
+                "room": 6,
+                "bed":2,
+                "preventiveCare": 0
+            },
+            {
+              "id":"117",
+                "gender": "male",
+                "name": "Rudy Gay",
+                "address": "87 digi",
+                "dob": "1929-09-23",
+                "phone": "+1111118765",
+                "riskFactors": {
+                    "perception": 1,
+                    "moisture": 1,
+                    "activity": 1,
+                    "mobility": 1,
+                    "nutrition": 1,
+                    "frictionShear": 1
+                },
+                "riskScore": 6,
+                "room": 6,
+                "bed":3,
+                "preventiveCare": 0
+            },
+            {
+              "id":"118",
+                "gender": "female",
+                "name": "Julie Goll",
+                "address": "1 tory",
+                "dob": "1946-12-03",
+                "phone": "+2222898765",
+                "riskFactors": {
+                    "perception": 2,
+                    "moisture": 2,
+                    "activity": 1,
+                    "mobility": 1,
+                    "nutrition": 1,
+                    "frictionShear": 2
+                },
+                "riskScore": 9,
+                "room": 7,
+                "bed":1,
+                "preventiveCare": 0
+            }
+        ],
+        "workflows": [
+            {
+                "_id": "gtvzbSm5ZL2uA6MTh",
+                "name": "Admission Workflow",
+                "version": "1.0",
+                "description": "Includes admission of patient, risk tool assessment and risk assessment",
+                "dataModel": "/resources/patient_admission.bpmn"
+            },
+            {
+                "name": "Patient Repositioning",
+                "version": "1.1",
+                "description": "Includes Braden Scale Assessment, automatic risk alerts and manual reposioning.",
+                "dataModel": "/resources/patient_repositioning.bpmn"
+            },
+            {
+                "name": "NPUAP Bed Repositioning",
+                "version": "1.0",
+                "description": "",
+                "dataModel": "/resources/NPUAP_Bed_Repositioning.bpmn"
+            },
+            {
+                "name": "NPUAP Nutrition for Pressure Ulcer Prevention",
+                "version": "1.0",
+                "description": "",
+                "dataModel": "/resources/NPUAP_Nutrition_for_Pressure_Ulcer_Prevention.bpmn"
+            },
+            {
+                "name": "NPUAP Repositioning of Seated Individual",
+                "version": "1.0",
+                "description": "",
+                "dataModel": "/resources/NPUAP_Repositioning_of_Seated_Individual.bpmn"
+            },
+            {
+                "name": "NPUAP Risk Assessment",
+                "version": "2.0",
+                "description": "",
+                "dataModel": "/resources/NPUAP_Risk_Assessment_2.bpmn"
+            },
+            {
+                "name": "NPUAP Skin Assessment",
+                "version": "1.0",
+                "description": "",
+                "dataModel": "/resources/NPUAP_Skin_Assessment_1.bpmn"
+            }
+        ]
+    }
+}

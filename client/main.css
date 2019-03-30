@@ -1,0 +1,67 @@
+/* CSS declarations go here */
+/* CSS declarations go here */
+
+button[type=submit] {
+
+}
+
+#globalAlertContainer {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	z-index: 5000;
+}
+
+PlotlyGraph{
+	align-items: center;
+	margin : 0px;
+}
+
+
+.margin-right-2px {
+	margin-right: 6px;
+}
+
+
+/* global viewer and modeler styles */
+
+
+#bpmn-js-canvas {
+	height: 500px;
+}
+
+#workflow-preview-canvas {
+
+}
+
+.bpmn-with-border {
+	border: solid 1px #d4d4d4;
+}
+
+.waiting-element:not(.djs-connection) .djs-visual > :nth-child(1) {
+	fill: #00bcd4 !important; /* color elements as green */
+}
+
+.next-element:not(.djs-connection) .djs-visual > :nth-child(1) {
+	fill: #ff9800 !important; /* color elements as green */
+}
+
+.completed-element:not(.djs-connection) .djs-visual > :nth-child(1) {
+	fill: #4caf50 !important; /* color elements as green */
+}
+
+
+.full-width {
+	width:100%;
+}
+td{
+	    font-weight: 500;
+}
+.card-title{
+	font-weight: 500;
+	font-size: 20px;
+}
+h3{
+	padding-left: 80px;
+}

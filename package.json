@@ -1,0 +1,28 @@
+{
+  "name": "shearScore",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "bcrypt": "^1.0.3",
+    "fibers": "^2.0.0",
+    "graphql": "^0.12.3",
+    "hiredis": "^0.5.0",
+    "matches-selector": "^1.2.0",
+    "mathjs": "^3.17.0",
+    "meteor-node-stubs": "^0.3.2",
+    "moment": "^2.19.2",
+    "mqtt": "^2.15.3",
+    "plotly.js": "^1.31.2",
+    "query-string": "^5.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-plotlyjs": "^0.4.4",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redis": "^2.8.0",
+    "text-encoding": "^0.6.4"
+  }
+}
